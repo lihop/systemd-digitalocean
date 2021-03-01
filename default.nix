@@ -4,4 +4,4 @@
   goPackagePath = name;
   src = builtins.filterSource (path: type: lib.hasSuffix ".go" path) ./.;
   goDeps = ./deps.nix;
-}).bin
+}).out
